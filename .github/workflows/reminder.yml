@@ -1,9 +1,9 @@
-name: reminder
+name: 'reminder'
 
 on:
   push:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '44 7 * * *'
 
 jobs:
   bot:
