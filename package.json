@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "reminder": "bash reminder.sh"
+    }
+}

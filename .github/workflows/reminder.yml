@@ -1,0 +1,14 @@
+name: reminder
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@master
+      - name: 'Reminder'
+        run: npm install && npm run Reminder
