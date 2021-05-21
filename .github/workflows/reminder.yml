@@ -1,6 +1,7 @@
 name: reminder
 
 on:
+  push:
   schedule:
     - cron: '*/1 * * * *'
 
@@ -8,7 +9,7 @@ jobs:
   bot:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout'
+      - name: 'Checkout codes'
         uses: actions/checkout@v1
-      - name: 'Reminder'
-        run: npm install && npm run Reminder
+      - name: 'Run reminder'
+        run: bash ./reminder.sh
