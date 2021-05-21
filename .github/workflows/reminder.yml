@@ -3,7 +3,7 @@ name: 'reminder'
 on:
 #  push:
   schedule:
-    - cron: '16 16 * * *'
+    - cron: '25 8 * * *'
 
 jobs:
   bot:
