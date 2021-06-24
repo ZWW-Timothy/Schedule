@@ -8,7 +8,7 @@ curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=4b42ef08-d001-4aec-8c
    {
         "msgtype": "text",
         "text": {
-            "content": "【Code Review】17:00；981 7348 4620",
+            "content": "【Meeting】9:30",
             "mentioned_list":["@all"]
         }
    }'
